@@ -1,0 +1,45 @@
+{
+    "name": "IM01",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+        "core": "*"
+    },
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "files": [
+        "README.md",
+        "FATDirHandle.cpp",
+        "FATDirHandle.h",
+        "FATFileHandle.cpp",
+        "FATFileHandle.h",
+        "FATFileSystem.cpp",
+        "FATFileSystem.h",
+        "SDFileSystem.cpp",
+        "SDFileSystem.h",
+        "ccsbcs.cpp",
+        "diskio.cpp",
+        "diskio.h",
+        "ff.h",
+        "ffconf.h",
+        "ff.cpp",
+        "integer.h",
+        "im01.cpp",
+        "im01.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
